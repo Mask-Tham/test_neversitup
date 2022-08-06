@@ -36,9 +36,6 @@ const routes = [
     path: '/todolist',
     name: 'todolist',
     component: () => import('../views/TodoList.vue'),
-    meta:{
-
-    }
   },
   {
     path: '/bonus',
